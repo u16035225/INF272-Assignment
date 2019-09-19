@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "CompanyListing";
+}
+
+<h2>Company Listing</h2>
+
+<div style="border:solid" align="center">
+    <h3>Protea Mining Chemicals Ltd</h3>
+    <label>Career Field:</label><input id="Text1" type="text" /><br/><br/>
+    <label>Job Position:</label><input id="Text1" type="text" /><br /><br />
+    <label>Location:</label><input id="Text1" type="text" /><br />
+    <h4>Reqirements:</h4><br />
+    <label>Specialization:</label><input id="Text1" type="text" /><br /><br />
+    <label>Years of Job Experience:</label><input id="Text1" type="text" /><br /><br />
+    <label>Education:</label><input id="Text1" type="text" /><br /><br />
+    <label>Willing to Relocate:</label><input id="Radio1" type="radio" value="Yes" /> <input id="Radio1" type="radio" value="No" /><br /><br />
+    <label>Additional Skills:</label><input id="Text1" type="text"/><br/>
+    <input id="Submit1" type="submit" value="Submit" /> <input id="Submit1" type="submit" value="Cancel" onclick="location.href='@Url.Action("CompanyProfile","Company")'"/>
+  
+
+</div>

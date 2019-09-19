@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "CompanyProfile";
+}
+
+<h2>Company Profile</h2>
+<div style="border:solid" align="center">
+    <h2>Protea Mining Chemicals Ltd</h2>
+    <label>Company ID: 19980215321</label><br/><br/>
+    <label>Company Address: 1203 City Street, Sandton, 0100</label><br/><br/>
+    <label>Company Email: Admin@pmc.co.za</label><br/><br/>
+    <label>Company Tel Number: 011 452 2015</label><br/><br/>
+    <label>Company Description: JSE listed company, with over 50 years in the mining industry.</label><br/><br/>
+    <input id="Submit1" type="submit" value="Edit" onclick="location.href='@Url.Action("CompanyRegistration","Company")'" />
+    <input id="Submit1" type="submit" value="Create Listing" onclick="location.href='@Url.Action("CompanyListing","Company")'" />
+
+     
+</div>
+
+

@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "CompanyRegistration";
+}
+
+<h2>Company Registration</h2>
+<h3>JobTinder</h3>
+
+
+<div style="border:solid" align="center" style="background-color:darkcyan">
+    <label>Company ID:</label><input id="Text1" type="text" /><br/><br/>
+    <label>Company Name:</label><input id="Text1" type="text" /><br/><br/>
+    <label>Company Address:</label><input id="Text1" type="text" /><br/><br/>
+    <label>Comapany Email:</label><input id="Text1" type="text" /><br /><br />
+    <label>Company Tel Number:</label><input id="Text1" type="text" /><br /><br />
+    <label>Company Description:</label><input id="Text1" type="text" /><br /><br /><br/>
+    <label>Create Password:</label><input id="Text1" type="text" /><br /><br />
+    <label>Confirm Password:</label><input id="Text1" type="text" /><br /><br />
+     
+    <input id="Submit1" type="submit" value="submit" onclick="location.href='@Url.Action("CompanyProfile","Company")'"/>
+</div>
